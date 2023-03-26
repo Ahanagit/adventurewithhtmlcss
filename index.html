@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/62859945da.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">Adventure</h1>
+      <ul class="nav-link">
+        <li><a href="#"></a>Home</li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn"><a href="#"></a>Contact</li>
+      </ul>
+      <img
+        class="menu-btn"
+        src="https://icon-library.com/images/three-bar-menu-icon/three-bar-menu-icon-13.jpg"
+        alt="menu"
+      />
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2>Explore until you are explore</h2>
+        <div class="line"></div>
+        <h1>World to Travel</h1>
+        <a class="ctn" href="#">Learn More</a>
+      </div>
+    </header>
+
+    <!--Events-->
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img
+            src="https://media.istockphoto.com/id/1141196125/photo/hiking-in-the-allgaeu-alps.jpg?s=612x612&w=0&k=20&c=scBnm6PxD4eJm49IKmP-EJiarbI_lds_z5QCWgViqTo="
+            alt=""
+          />
+          <h4>Everest Camp Trek</h4>
+          <p>
+            When you reach the peak, you would see the world watching at your
+            success
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col">
+          <img
+            src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/04/acj-1704-trekking-in-coorg-8.jpg"
+            alt=""
+          />
+          <h4>Uttarakhand Trek</h4>
+          <p>
+            Don't know about the Silicon Valley but the Valley of hidden beauty
+            is waiting for you
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore">
+      <div class="explore-content">
+        <h1>Give yourself the Wings to fly</h1>
+        <div class="line"></div>
+        <p>
+          The life itself is too short as compared to the opportunities So live
+          each moment
+        </p>
+        <a href="" class="ctn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>Upcoming Tours</h1>
+          <div class="line"></div>
+          <p>We are presenting upcoming plans for you</p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img
+              src="https://www.goldenagers.in/images/grouptour/kerala-tour.jpg"
+              alt="img1"
+            />
+            <img
+              src="https://www.traveltourister.com/admin/include/upload/packages/5b9794278876eMauritius%20Tour%20Package%20from%20Bangalore.jpg"
+              alt="img2"
+            />
+            <img
+              src="https://www.tourism.rajasthan.gov.in/content/dam/rajasthan-tourism/english/city/explore/124.jpg"
+              alt="img3"
+            />
+            <img
+              src="https://media.istockphoto.com/id/1071461664/photo/having-a-tour-through-the-city-streets.jpg?s=612x612&w=0&k=20&c=nlr914eKeQkYVpv7UgKCGU1oWLd97eRCi5e3jRggEhw="
+              alt="img4"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const menubtn = document.querySelector(".menu-btn");
+      const navlink = document.querySelector(".nav-link");
+
+      menubtn.addEventListener("click", () => {
+        navlink.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
